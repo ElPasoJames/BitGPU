@@ -23,7 +23,7 @@ bip(num):
     
 with
  
-open('BIP0039.txt', 'r') as f:
+open('Bit.txt', 'r') as f:
         words = f.read().split()
         for word in words:
             sent = [random.choice(words)
